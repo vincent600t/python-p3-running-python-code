@@ -1,14 +1,20 @@
+# lib/functions.py
+
 def greet_programmer():
-    print("Hello, Programmer!")
-
-name = "Frank"
-def greet():
-    print(f"Hello! {name}")
+    print("Hello, programmer!")
 
 
-def greet_with_default(name = "programmer"):
-    print(f"Hello! {name}")
+def greet(name):
+    print(f"Hello, {name}!")
 
 
-def add(x, y):
-    return x + y
+def greet_with_default(name="programmer"):
+    print(f"Hello, {name}!")
+
+
+def add(num1, num2):
+    return num1 + num2
+
+
+def halve(number):
+    return number / 2
